@@ -3,6 +3,7 @@ html {
   line-height: 1.5;
   background-color: #eee9de;
   color: #333;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -11,8 +12,8 @@ h2 {
 }
 
 body {
-  margin: 1rem;
-  font-family: Lato, sans-serif;
+  margin: 1.5rem;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -22,7 +23,6 @@ body {
 img {
   width: 25em;
   display: block;
-  vertical-align: middle;
 }
 
 div {

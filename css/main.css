@@ -3,7 +3,6 @@ html {
   line-height: 1.5;
   background-color: #eee9de;
   color: #333;
-  display: inline-block;
 }
 
 *, *::before, *::after {
@@ -12,10 +11,12 @@ html {
 
 img {
   width: 25em;
+  display: inline-block;
 }
 
 div {
   max-width: 25em;
+  display: inline-block;
 }
 
 a {

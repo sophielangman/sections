@@ -21,12 +21,13 @@ body {
 }
 
 img {
-  width: 20em;
+  width: 20sem;
   display: block;
 }
 
 div {
   max-width: 25em;
+  padding: 2em;
   display: inline-block;
   text-align: left;
 }

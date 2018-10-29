@@ -11,21 +11,42 @@ h2 {
   font-family: Lato, sans-serif;
 }
 
-body {
-  margin: 0;
-  vertical-align: middle;
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
-  display: block;
-  padding: 1em;
+body {
+  margin: 0;
 }
 
+section {
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
+}
+
+.picture {
+  display: inline-block;
+  padding-top: 1.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-top: 1.5rem;
+  max-width: 25em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text {
+  display: inline-block;
+  max-width: 25em;
+  text-align: left;
+  margin-top:
+}
 div {
   max-width: 25em;
   padding: 2em;

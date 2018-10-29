@@ -23,17 +23,16 @@ body {
 }
 
 section {
-  vertical-align: middle;
   text-align: center;
   margin: 0;
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
 
 .picture {
+  vertical-align: middle;
   display: inline-block;
-  padding-top: 1.5em;
-  padding-right: 1em;
-  padding-left: 1em;
-  margin-top: 1.5rem;
+  padding: 1em;
   max-width: 25em;
 }
 
@@ -45,12 +44,11 @@ img {
 }
 
 .text {
+  vertical-align: middle;
   display: inline-block;
   max-width: 25em;
   text-align: left;
-  margin-top: 1.5rem;
-  margin-right: 1.5rem;
-  padding-left: 1em;
+  padding: 1em;
 }
 
 p {
@@ -59,19 +57,13 @@ p {
   padding-bottom: .75em;
 }
 
-button {
-  display: inline-block;
-  padding: .6em .75em;
-  border: 3px solid #333;
-  background-color: #eee9de;
-  font-size: 1.125em;
-}
-
 .btn {
+  display: inline-block;
+  font-size: 1.125rem;
   text-decoration: none;
   border: 3px solid #333;
   border-radius: 7px;
-  padding: .4em;
+  padding: .4em .75em .5em;
   color: #333;
   text-align: center;
 }

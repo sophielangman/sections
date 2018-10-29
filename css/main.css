@@ -50,7 +50,6 @@ img {
   text-align: left;
   margin-top: 1.5rem;
   margin-right: 1.5rem;
-  margin-top: 1.5em;
   padding-left: 1em;
 }
 
@@ -69,8 +68,8 @@ div {
 button {
   display: inline-block;
   padding: .6em .75em;
-  border-radius: 7px;
   border: 3px solid #333;
+  background-color: #eee9de;
   font-size: 1.125em;
   margin-top: .6rem;
   margin-bottom: 3rem;
@@ -78,6 +77,8 @@ button {
 
 .btn {
   text-decoration: none;
+  border: 3px solid #333;
+  border-radius: 7px;
   color: #333;
   text-align: center;
 }
